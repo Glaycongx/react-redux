@@ -12,7 +12,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
 	width: '100%',
-	marginTop: 20
+	marginTop: 20,
   },
   input: {
     marginLeft: 8,

@@ -1,16 +1,17 @@
 import * as React from 'react';
 import { withStyles } from '@material-ui/core/styles';
+import { AddTask, SelectTypeTask } from '../../components';
 
-import { AddTask } from '../../components';
 
 const styles = {
 
 	container: {
 		width: '50%',
 		display: 'flex',
+		flexDirection: 'column-reverse',
 		alignItems: 'center',
 		justifyContent: 'center'
-	}
+	},
 }
 
 
@@ -20,8 +21,10 @@ class Home extends React.PureComponent {
 		const { classes } = this.props;
 		return (
 			<div className={classes.container}>
+				<SelectTypeTask />
 				<AddTask />
-			</div>
+
+</div>
 		);
 	}
 }
