@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import { AddTask, SelectTypeTask, NewCardTask } from '../../components';
+import { AddTask, SelectTypeTask, NewCardTask, CrudTaskMenu } from '../../components';
 
 
 const styles = {
@@ -24,8 +24,7 @@ class Home extends React.PureComponent {
 				<NewCardTask />
 				<SelectTypeTask />
 				<AddTask />
-
-
+				<CrudTaskMenu />
 </div>
 		);
 	}

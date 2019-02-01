@@ -11,7 +11,6 @@ import Paper from '@material-ui/core/Paper';
 const styles = {
     root: {
         padding: '2px 4px',
-        display: 'flex',
         alignItems: 'center',
         width: '100%',
         marginTop: 20,
@@ -27,7 +26,7 @@ const styles = {
   title: {
     fontSize: 14,
   },
-  
+
 };
 
 function NewCardTask(props) {
@@ -47,7 +46,7 @@ function NewCardTask(props) {
       </CardActions>
     </Card>
     </Paper>
-    
+
   );
 }
 
